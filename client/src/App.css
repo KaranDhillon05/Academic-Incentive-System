@@ -1,0 +1,40 @@
+/* App-specific styles */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Override Material UI styles for full width */
+.MuiContainer-root {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+@media (min-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+}
+
+/* Form styles */
+.form-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Dashboard styles */
+.dashboard-container {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
